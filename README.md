@@ -13,6 +13,20 @@ The **Amthal Project** provides the data and code for a large-scale computationa
 
 Grounded in the ethos of Open Science, this project makes all its scholarly products transparently available to facilitate verification and extension. A manuscript detailing the full theoretical and analytical findings is currently under peer review; a citation will be added upon its publication.
 
+## Ethical Considerations & Usage Notice
+
+The data and models in this repository engage with the Qur'an, a text of profound religious and cultural significance to communities worldwide. We have developed these resources with a commitment to scholarly accountability and methodological transparency. We ask that all users engage with them in a similar spirit.
+
+We encourage responsible use aligned with ethical, respectful, and culturally sensitive research practices. We propose the following principles, drawn from critical data studies and digital humanities, as a guide for users:
+
+-   **Data as Representation, Not Reality:** This dataset is a *model* of the Qur'an's figurative language, not the text itself. It is a form of *capta* (data actively constructed through scholarly judgment), not objective *data*. We urge users to avoid computational reductionism and to remember that any analysis of this data is an analysis of one specific, theoretically-grounded representation.
+
+-   **Contextual and Cultural Sensitivity:** The meanings encoded in this dataset are deeply embedded in historical, theological, and linguistic contexts. We caution against making decontextualized or universalist claims. Any interpretation should acknowledge the rich exegetical traditions and interpretive communities that surround the Qur'an.
+
+-   **Reflexivity and Positionality:** As researchers, our own backgrounds and theoretical commitments shape our work. We encourage users to reflect on their own positionality and how it influences their analysis and interpretation of these resources.
+
+The computational models presented here are intended as **analytical tools, not as theological claims**. They are designed to reveal structural patterns to facilitate new scholarly questions, not to provide definitive answers or replace traditional hermeneutics. We invite users to engage with these resources in a spirit of critical inquiry and intellectual humility.
+
 
 ## Dataset Overview: The Amthal Corpus
 
@@ -36,6 +50,18 @@ The dataset is provided in two primary CSV files (UTF-8 encoded) located in the 
 A complete data dictionary, including detailed descriptions of all fields, decision rules, and illustrative examples, is available in the dedicated README file within the data directory.
 
 ➡️ **[View the Full Codebook in `/data/README.md`](./data/README.md)**
+
+
+## Reproducibility Summary
+
+This project adheres to best practices for scientific reproducibility. We have taken the following steps to ensure our analysis is transparent and verifiable:
+
+-   ✅ **All analysis scripts are provided** in the `/code/` directory.
+-   ✅ **Random seeds are fixed** in stochastic processes (e.g., sampling) to ensure identical results.
+-   ✅ **A complete environment file (`requirements.txt`) is included** for dependency management.
+-   ✅ **A detailed codebook is provided** in `/data/README.md` to explain the dataset.
+-   ✅ **The full analysis pipeline is documented**, with direct links to interactive notebooks.
+
 
 
 ## Reproducing the Analysis
