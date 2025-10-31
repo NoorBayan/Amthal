@@ -45,7 +45,7 @@ For a complete understanding of the dataset and our methodological commitments, 
 
 1.  **Datasheet:** Provides a high-level overview of the project's motivation, composition, ethical considerations, and recommended use cases. It is essential reading for anyone intending to use these resources.
 
-    ➡️ **[Read the Full Datasheet for the Amthal Corpus](./docs/datasheet.md)**
+    ➡️ **[Read the Full Datasheet for the Amthal Corpus](./data/datasheet.md)**
 
 2.  **Codebook (Data Dictionary):** Offers a detailed, field-by-field description of the dataset, including all annotation categories, decision rules, and examples.
 
