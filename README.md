@@ -28,28 +28,28 @@ We encourage responsible use aligned with ethical, respectful, and culturally se
 The computational models presented here are intended as **analytical tools, not as theological claims**. They are designed to reveal structural patterns to facilitate new scholarly questions, not to provide definitive answers or replace traditional hermeneutics. We invite users to engage with these resources in a spirit of critical inquiry and intellectual humility.
 
 
-## Dataset Overview: The Amthal Corpus
+## Dataset & Documentation
 
-At the core of this project is the **Amthal Corpus**, a new, richly annotated dataset of figurative language in the Qur'an. It was developed to serve as a high-quality empirical foundation for computational and humanistic research.
+At the core of this project is the **Amthal Corpus**, a new, richly annotated dataset of figurative language in the Qur'an. It serves as the empirical foundation for our computational analysis.
 
-### Key Features
+### Dataset Overview
 
--   **Comprehensive Scope:** Contains **4,078 manually annotated figurative instances** (metaphors, similes, metonymy, etc.) covering the entire Qur'anic text.
--   **Multi-Dimensional Annotation:** Each instance is described across **25+ analytical fields**, capturing its conceptual source domain, rhetorical function, affective valence, and contextual properties.
--   **Rigorous Validation:** The dataset's annotation schema was developed and refined through a collaborative, multi-annotator process and validated with a formal Inter-Coder Reliability (ICR) protocol to ensure high consistency.
+-   **Content:** 4,078 manually annotated figurative instances.
+-   **Annotation Depth:** 25+ fields covering conceptual, rhetorical, and affective dimensions.
+-   **Validation:** Annotation quality was ensured via a formal Inter-Coder Reliability (ICR) protocol.
+-   **Location:** The primary data files (`instances.csv`, `relations.csv`) are located in the `/data/processed/` directory.
 
-### Data Files
+### Comprehensive Documentation
 
-The dataset is provided in two primary CSV files (UTF-8 encoded) located in the `/data/processed/` directory:
+For a complete understanding of the dataset and our methodological commitments, please refer to the following documents:
 
--   `instances.csv`: The main table where each row represents a single figurative instance.
--   `relations.csv`: A supplementary table modeling the relationships between instances that co-occur within the same verse.
+1.  **Datasheet:** Provides a high-level overview of the project's motivation, composition, ethical considerations, and recommended use cases. It is essential reading for anyone intending to use these resources.
 
-### Full Documentation (Codebook)
+    ➡️ **[Read the Full Datasheet for the Amthal Corpus](./docs/datasheet.md)**
 
-A complete data dictionary, including detailed descriptions of all fields, decision rules, and illustrative examples, is available in the dedicated README file within the data directory.
+2.  **Codebook (Data Dictionary):** Offers a detailed, field-by-field description of the dataset, including all annotation categories, decision rules, and examples.
 
-➡️ **[View the Full Codebook in `/data/README.md`](./data/README.md)**
+    ➡️ **[View the Full Codebook in `/data/README.md`](./data/README.md)**
 
 
 ## Reproducibility Summary
