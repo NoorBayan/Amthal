@@ -1,13 +1,4 @@
 ####
-import pandas as pd
-from bidi.algorithm import get_display
-import arabic_reshaper
-#poems=pd.read_csv('Diwan.csv',sep='\t',encoding='utf-16')
-def arab(text):
-    return get_display(arabic_reshaper.reshape(text))
-
-
-####
 Dominant_Concept_dic = {
     1: {'ar': 'إدراك', 'en': 'Cognition'},
     2: {'ar': 'بناء', 'en': 'Construction'},
