@@ -70,44 +70,54 @@ Our entire analytical workflow is transparent and reproducible. We provide Jupyt
 
 The table below outlines the key components of our analysis and provides direct links to the corresponding code.
 
-<table>
-  <thead>
-    <tr>
-      <th align="left"><b>Analytical Component</b></th>
-      <th align="left"><b>Description</b></th>
-      <th align="left"><b>Explore in Colab</b></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top"><strong>1. Network Construction & Centrality Analysis</strong></td>
-      <td valign="top">This notebook builds the conceptual co-occurrence network from the Amthal Corpus. It applies the edge weighting scheme, calculates key centrality metrics (Degree, Betweenness), and performs the sensitivity analysis across different weighting models.</td>
-      <td valign="top">
-        <a href="<YOUR_COLAB_LINK_FOR_NETWORK_ANALYSIS>">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top"><strong>2. Community Detection & Thematic Clustering</strong></td>
-      <td valign="top">Implements the Leiden algorithm to partition the network into thematic communities ("metaphorical ecologies"). This notebook also visualizes the final network structure, highlighting the identified clusters and their relationships.</td>
-      <td valign="top">
-        <a href="<YOUR_COLAB_LINK_FOR_COMMUNITY_DETECTION>">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top"><strong>3. Diachronic & Functional Statistical Analysis</strong></td>
-      <td valign="top">Contains the code for the statistical tests. This includes the Chi-squared analysis for comparing conceptual distributions across revelation periods (Meccan/Medinan) and the G-test for assessing the association between affective valence and rhetorical function.</td>
-      <td valign="top">
-        <a href="<YOUR_COLAB_LINK_FOR_STATS_TESTS>">
-          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+## Reproducing the Analysis
+
+Our entire analytical workflow is documented and executable across a series of focused notebooks. Each notebook is designed to be self-contained and allows for the full replication of a specific analysis or visualization. You can run these notebooks locally after setting up the environment, or explore them interactively online using Google Colab.
+
+Below, we have organized the notebooks thematically to guide you through our research components.
+
+---
+
+### 1. Network Architecture & Community Structure
+
+These notebooks focus on constructing the Qur'an's conceptual network and analyzing its core structural properties.
+
+| Analysis / Visualization                          | Description                                                                                             | Explore in Colab                                                                    |
+| :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
+| **Global Conceptual Network**                     | Constructs and visualizes the main weighted co-occurrence network.                                      | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Top 10 Central Conceptual Domains**             | Calculates degree and betweenness centrality to identify and rank the network's most influential nodes. | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Centrality vs. Textual Prominence**             | Creates a scatter plot comparing a concept's network centrality against its frequency in the text.      | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Community Profiles in the Network**             | Implements the Leiden algorithm to detect thematic communities and describes their conceptual makeup.   | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Distribution into Thematic Communities**        | Visualizes how the 4,078 instances are distributed across the identified communities.                   | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Network Robustness to Node Removal**            | Simulates targeted attacks on central nodes to measure the network's structural resilience.             | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+
+---
+
+### 2. Diachronic Analysis (Meccan vs. Medinan Periods)
+
+These notebooks conduct the comparative statistical analysis between the two revelation periods.
+
+| Analysis / Visualization                          | Description                                                                                             | Explore in Colab                                                                    |
+| :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
+| **Comparative Density of Top 12 Domains**         | Generates a bar chart comparing the relative frequency of the most common concepts across periods.      | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Distribution of Rhetorical Functions**          | Visualizes how the usage of rhetorical functions (Promise, Warning, etc.) shifts between periods.     | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Distribution of Abstraction Level**             | Compares the use of concrete vs. abstract source domains in Meccan and Medinan revelations.            | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Key Domains with Significant Shifts**           | Performs a Chi-squared test to identify concepts whose distribution changes significantly over time.      | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| **Standardized Residuals (Overall Comparison)**   | Calculates and plots standardized residuals for all concepts to show which are over/under-represented in each period. | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| **Standardized Residuals (In-depth Profiles)**    | Provides a multi-panel deep dive into the *significantly shifting concepts*, analyzing their valence, function, and abstraction profiles. | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+
+---
+
+### 3. Affective & Rhetorical Functional Analysis
+
+These notebooks investigate the relationship between affective charge (valence) and persuasive intent.
+
+| Analysis / Visualization                          | Description                                                                                             | Explore in Colab                                                                    |
+| :------------------------------------------------ | :------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
+| **Valence Distribution**                          | Creates a summary visualization of the overall distribution of Positive, Negative, and Neutral valence. | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| **Valence Profile of Top 12 Concepts**            | Shows the affective profile (dominant valence) for each of the most central conceptual domains.         | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| **Association (Valence & Rhetorical Function)**   | Conducts the G-test to assess the statistical association between affective valence and function.       | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| **Stacked Bar Chart of Valence Distribution**     | Visualizes how valence is distributed within each rhetorical function, providing a detailed view.       | <a href="<YOUR_LINK_HERE>"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 
 ### Local Execution
 
