@@ -1,0 +1,24 @@
+# ==========================================================
+# Python Dependencies for the "Amthal" Project
+# ==========================================================
+# Install these packages using: pip install -r requirements.txt
+
+# --- Core Data Science & Statistics ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+statsmodels==0.14.2
+
+# --- Network Analysis ---
+networkx==3.3
+# For Leiden and Louvain community detection
+python-igraph==0.11.5
+leidenalg==0.10.2
+python-louvain==0.16
+
+# --- Visualization ---
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+# For Graphviz layouts (requires system-level installation)
+pygraphviz==1.13
