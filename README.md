@@ -118,7 +118,7 @@ These notebooks explore the network's thematic clusters, both algorithmically de
 #### 2.3. Inter-Community Analysis
 | Analysis / Visualization               | Description                                                                                       | Explore in Colab                                                                    |
 | :------------------------------------- | :------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
-| **Top Inter-Community Bridges**        | Identifies and ranks the strongest conceptual links that connect different thematic communities.    | <a href="[YOUR_NEW_COLAB_LINK_HERE]"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| **Top Inter-Community Bridges**        | Identifies and ranks the strongest conceptual links that connect different thematic communities.    | <a href="https://colab.research.google.com/drive/1B6BDg0LIU1j3N4qHzuQLKhZ6O2Kf_CI_?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ---
 
