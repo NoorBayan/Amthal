@@ -92,6 +92,9 @@ This set of notebooks focuses on building the Qur'an's conceptual network and an
 
 ---
 
+
+---
+
 ### 2. Community Structure & Thematic Analysis
 
 These notebooks explore the network's thematic clusters, both algorithmically detected and predefined.
@@ -111,6 +114,11 @@ These notebooks explore the network's thematic clusters, both algorithmically de
 | :------------------------------------- | :------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
 | **Profiles of Predefined Communities** | Generates a detailed analytical table profiling a set of expert-defined thematic communities.     | <a href="https://colab.research.google.com/drive/1uAwbicpKNHp5JjJc8tZtkT_NuzGFrH7m?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | **Summary of Community Profiles**      | Creates a multi-panel figure summarizing the quantitative profiles of predefined communities.       | <a href="https://colab.research.google.com/drive/11LJfqwMCa5UFYxHPWihYLkm14Hdwvllu?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+
+#### 2.3. Inter-Community Analysis
+| Analysis / Visualization               | Description                                                                                       | Explore in Colab                                                                    |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------- |
+| **Top Inter-Community Bridges**        | Identifies and ranks the strongest conceptual links that connect different thematic communities.    | <a href="[YOUR_NEW_COLAB_LINK_HERE]"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ---
 
