@@ -39,9 +39,8 @@ Rhetorical_Function_dic = {
     5: {'ar': 'تشريع', 'en': 'Legislation'},
     6: {'ar': 'وعد', 'en': 'Promise'},
     7: {'ar': 'وعيد', 'en': 'Warning'},
-    8: {'ar': 'تمجيد', 'en': 'Praise'},
-    9: {'ar': 'تعظيم', 'en': 'Glorification'},
-    10: {'ar': 'امتنان', 'en': 'Gratitude'}
+    8: {'ar': 'تعظيم', 'en': 'Glorification'},
+    9: {'ar': 'امتنان', 'en': 'Gratitude'}
 }
 
 ####
