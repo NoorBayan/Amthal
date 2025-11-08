@@ -43,7 +43,7 @@ Each instance is described by **27 fields**, organized into five thematic groups
 4.  **Analytical & Interpretive:** `Rhetorical_Function`, `Valence`, `Dominance_Score`.
 5.  **Annotation Metadata:** `Hierarchy`, `Ambiguity_Flag`.
 
-A complete description of each field is available in the **[Codebook](./data/README.md)**.
+A complete description of each field is available in the **[Codebook](./README.md)**.
 
 **What is the source of the data?**
 
