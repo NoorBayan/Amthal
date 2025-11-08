@@ -3,7 +3,7 @@
 This document provides a detailed overview of the Amthal Corpus, a dataset of conceptual metaphors in the Qur'an. It follows the principles of Datasheets for Datasets [1] to ensure transparency and accountability.
 
 **Version:** 1.0  
-**Last Updated:** [Date of last update]
+**Last Updated:** November 2, 2025
 
 ---
 
