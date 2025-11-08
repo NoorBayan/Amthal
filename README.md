@@ -1,6 +1,6 @@
 # Amthāl: A Dataset and Computational Model of the Qur’an’s Conceptual Universe
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17560606.svg)](https://doi.org/10.5281/zenodo.17560606)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status](https://img.shields.io/badge/Status-Under%20Peer%20Review-blue.svg)]() <!-- شارة اختيارية للإشارة إلى أن العمل قيد المراجعة -->
